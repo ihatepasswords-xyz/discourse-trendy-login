@@ -44,12 +44,21 @@ body.static-login {
     }
   }
   .logo-container img {
+    max-width: 20rem;
+    height: auto;
+  }
+  .custom-login-page {
+    max-width: 20rem;
+  }
+@media (min-width: 500px) {
+  .logo-container img {
     max-width: 25rem;
     height: auto;
   }
   .custom-login-page {
     max-width: 25rem;
   }
+}
   .login-welcome__title {
     display: none;
   }

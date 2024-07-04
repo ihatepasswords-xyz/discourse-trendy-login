@@ -43,6 +43,16 @@ body.static-login {
       display: none;
     }
   }
+  .logo-container img {
+    max-width: 25rem;
+    height: auto;
+  }
+  .custom-login-page {
+    max-width: 25rem;
+  }
+  .login-welcome__title {
+    display: none;
+  }
 }
 
 .desktop-view .d-header-wrap::before {
